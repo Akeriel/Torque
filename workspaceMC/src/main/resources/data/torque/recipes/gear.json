@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sws",
+    "w w",
+    "sws"
+  ],
+  "key":
+  {
+    "w":
+    {
+      "tag": "minecraft:planks"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "torque:gear",
+    "count": 1
+  }
+}
