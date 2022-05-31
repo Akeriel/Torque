@@ -1,7 +1,8 @@
-package com.abod.torque.events;
+package com.akeriel.torque.events;
 
-import com.abod.torque.block.ModBlocks;
-import com.abod.torque.block.gear.GearRenderer;
+import com.akeriel.torque.block.ModBlocks;
+import com.akeriel.torque.block.gear.GearRenderer;
+import com.akeriel.torque.Torque;
 
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -12,7 +13,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
-import com.abod.torque.Torque;
 
 @Mod.EventBusSubscriber(modid = Torque.MOD_ID, bus = Bus.MOD, value = Dist.CLIENT)
 public final class ClientModEvents {

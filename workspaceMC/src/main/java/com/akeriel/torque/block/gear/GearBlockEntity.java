@@ -1,6 +1,6 @@
-package com.abod.torque.block.gear;
+package com.akeriel.torque.block.gear;
 
-import com.abod.torque.block.ModBlocks;
+import com.akeriel.torque.block.ModBlocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.entity.BlockEntity;

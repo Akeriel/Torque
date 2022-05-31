@@ -1,6 +1,6 @@
-package com.abod.torque.block.gear;
+package com.akeriel.torque.block.gear;
 
-import com.abod.torque.block.ModBlocks;
+import com.akeriel.torque.block.ModBlocks;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Vector3f;
 

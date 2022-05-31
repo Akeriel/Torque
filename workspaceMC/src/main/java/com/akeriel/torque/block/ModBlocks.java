@@ -1,4 +1,4 @@
-package com.abod.torque.block;
+package com.akeriel.torque.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -14,10 +14,10 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-import com.abod.torque.Torque;
-import com.abod.torque.block.gear.GearBlockEntity;
-import com.abod.torque.block.gear.GearBlock;
-import com.abod.torque.item.ModItems;
+import com.akeriel.torque.block.gear.GearBlockEntity;
+import com.akeriel.torque.block.gear.GearBlock;
+import com.akeriel.torque.item.ModItems;
+import com.akeriel.torque.Torque;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =

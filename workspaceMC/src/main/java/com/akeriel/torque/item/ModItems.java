@@ -1,6 +1,6 @@
-package com.abod.torque.item;
+package com.akeriel.torque.item;
 
-import com.abod.torque.Torque;
+import com.akeriel.torque.Torque;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

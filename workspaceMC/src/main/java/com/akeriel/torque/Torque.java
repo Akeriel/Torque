@@ -1,7 +1,7 @@
-package com.abod.torque;
+package com.akeriel.torque;
 
-import com.abod.torque.block.ModBlocks;
-import com.abod.torque.item.ModItems;
+import com.akeriel.torque.block.ModBlocks;
+import com.akeriel.torque.item.ModItems;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

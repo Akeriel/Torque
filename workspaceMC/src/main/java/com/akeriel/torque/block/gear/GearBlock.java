@@ -1,10 +1,10 @@
-package com.abod.torque.block.gear;
+package com.akeriel.torque.block.gear;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import com.abod.torque.block.ModBlocks;
-import com.abod.torque.item.ModItems;
+import com.akeriel.torque.block.ModBlocks;
+import com.akeriel.torque.item.ModItems;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
