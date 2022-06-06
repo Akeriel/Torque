@@ -1,5 +1,7 @@
 {
   "item.torque.wrench": "Wrench",
-  "block.torque.gear": "Gear",
+  "block.torque.wood_gear": "Wood Gear",
+  "block.torque.iron_gear": "Iron Gear",
+  "block.torque.obsidian_gear": "Obsidian Gear",
   "itemGroup.torquetab": "Torque"
 }

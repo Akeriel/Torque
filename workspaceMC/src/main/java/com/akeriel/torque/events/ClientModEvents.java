@@ -22,7 +22,6 @@ public final class ClientModEvents {
     
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GEAR.get(), RenderType.cutout());
     }
     
     @SubscribeEvent

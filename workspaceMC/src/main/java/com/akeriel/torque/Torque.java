@@ -20,7 +20,7 @@ public class Torque {
     public static final CreativeModeTab TORQUE_TAB = new CreativeModeTab("torquetab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.GEAR.get());
+            return new ItemStack(ModBlocks.WOOD_GEAR.get());
         }
     };
 	    

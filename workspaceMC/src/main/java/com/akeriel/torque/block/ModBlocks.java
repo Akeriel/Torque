@@ -26,12 +26,21 @@ public class ModBlocks {
             .create(ForgeRegistries.BLOCK_ENTITIES, Torque.MOD_ID);
 
     // Block Registries
-    public static final RegistryObject<Block> GEAR =
-            registerBlock("gear",() -> new GearBlock(BlockBehaviour.Properties
-                    .of(Material.GLASS).strength(9f).noDrops().noOcclusion()),
+    public static final RegistryObject<Block> WOOD_GEAR =
+            registerBlock("wood_gear",() -> new GearBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD).strength(9f).noDrops().noOcclusion()),
+                    Torque.TORQUE_TAB);
+    public static final RegistryObject<Block> IRON_GEAR =
+            registerBlock("iron_gear",() -> new GearBlock(BlockBehaviour.Properties
+                    .of(Material.METAL).strength(9f).noDrops().noOcclusion()),
+                    Torque.TORQUE_TAB);
+    public static final RegistryObject<Block> OBSIDIAN_GEAR =
+            registerBlock("obsidian_gear",() -> new GearBlock(BlockBehaviour.Properties
+                    .of(Material.STONE).strength(9f).noDrops().noOcclusion()),
                     Torque.TORQUE_TAB);
     public static final RegistryObject<BlockEntityType<GearBlockEntity>> GEAR_ENTITY = BLOCK_ENTITIES.register("gear_entity",
-            () -> BlockEntityType.Builder.of(GearBlockEntity::new, ModBlocks.GEAR.get()).build(null));
+            () -> BlockEntityType.Builder.of(GearBlockEntity::new, ModBlocks.WOOD_GEAR.get(), ModBlocks.IRON_GEAR.get(), ModBlocks.OBSIDIAN_GEAR.get()).build(null));
+    
     
 
     public static void register(IEventBus eventBus){

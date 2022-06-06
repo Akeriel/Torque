@@ -1,6 +1,6 @@
 {
    "parent": "item/generated",
    "textures": {
-    "layer0": "torque:item/gear"
+    "layer0": "torque:item/obsidian_gear"
   }
 }

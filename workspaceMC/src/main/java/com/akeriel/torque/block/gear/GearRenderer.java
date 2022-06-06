@@ -32,9 +32,10 @@ public class GearRenderer implements BlockEntityRenderer<GearBlockEntity>{
         pPoseStack.mulPose(Vector3f.YP.rotationDegrees(11.25F * pBlockEntity.getBlockState().getValue(GearBlock.SHIFT)));
         pPoseStack.translate(-0.5, 0, -0.5);
         
-        BlockState defState = ModBlocks.GEAR.get().defaultBlockState();
+        
+        BlockState defState = pBlockEntity.getBlockState().getBlock().defaultBlockState();
         BakedModel bakedmodel = dispatcher.getBlockModel(defState);
-        int i = ModBlocks.GEAR.get().defaultMaterialColor().col;
+        int i = pBlockEntity.getBlockState().getBlock().defaultMaterialColor().col;
         float f = (float)(i >> 16 & 255) / 255.0F;
         float f1 = (float)(i >> 8 & 255) / 255.0F;
         float f2 = (float)(i & 255) / 255.0F;
